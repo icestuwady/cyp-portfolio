@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Chanyaphat Metha</title>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="Assets/css/Style.css">
   </head>
@@ -18,22 +20,22 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav ">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
+                <a class="nav-link" href="#about">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Project</a>
+                <a class="nav-link" href="#project">Project</a>
               </li>	
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>				
             </ul>		  
           </div>
         </div>
       </nav>
-      <div
+      <div 
         style="
           height: 1000px;
           margin-top: 60px; 
@@ -44,15 +46,15 @@
           <div class="text-back">
               <h1 class="mb-3" style="text-align: left;font-weight: bold;font-size: 10vw;">Hi !</h1>
               <h1 class="mb-3" style="text-align: left;font-weight: bold;font-size: 5vw;">I am <span style="color: rgb(68, 73, 115);">Chanyaphat Metha</span></h1>
-              <a class="btn btn-outline-dark btn-lg" href="#!" role="button">###Somthing</a>
+              <a class="btn btn-outline-dark btn-lg" href="#project" role="button">Visit My Project</a>
           </div>
         </div>
       </div>
     </header>
 
-    <section class="pt-0">
+    <section id="about" class="pt-5">
       <div class="container justify-content-center align-items-center">
-        <div class="row pt-5">
+        <div class="row">
           <div class="col-lg-1 col-md-12"></div>
           <div class="col-lg-4 col-md-12" style="text-align: center;">
             <img src="Assets/img/ice.png" alt="Me!" style="width: 100%;object-fit: cover;">
@@ -61,16 +63,63 @@
             <p>Who I am ?</p>
             <h2>About Me</h2>
             <p>ยังไม่ได้เรียบเรียง จัดสีสันอะไร แต่ก็นั้นแหละ ตามนั้น</p>
+            <a class="btn btn-outline-dark btn-md" href="Assets/Resume Chanyaphat Metha.pdf" download role="button">Download Resume</a>
           </div>
           <div class="col-lg-1 col-md-12"></div>
         </div>
       </div>
     </section>
 
-    <div>
-      <p><a href="Christmas-Countdown/Christmas_countdown.html">Christmas</a></p>
-      <p><a href="#">Weather</a></p>
-    </div>
+    <section id="project" class="pt-5">
+      <div class="container justify-content-center align-items-center">
+        <h1 class="text-center" style="font-weight: bold;">Projects</h1>
+        <div class="row pt-5" style="text-align: center;">
+          <div class="col-lg-4 col-md-12" style="text-align: center;">
+            <div class="card bg-image">
+              <img src="Assets/img/Christmas Countdown.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Christmas Countdown</h4><br>
+                <h5>
+                  <img src="Assets/img/html.png" width="30px" alt="html">&nbsp;
+                  <img src="Assets/img/css.webp" width="30px" alt="css">&nbsp;
+                  <img src="Assets/img/js.png" width="30px" alt="js">
+                </h5><br>
+                <a href="Christmas-Countdown/Christmas_countdown.html" class="btn btn-outline-dark">Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <p><a href="#">Weather App</a></p>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <p><a href="#">Calculator</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="pt-5">
+      <div class="container pt-5">
+        <h1 style="font-weight: bold;">Contact</h1><br>
+        <a class="btn text-white m-1" style="background-color: #983b3b;" href="mailto:chanyaphat.mth@gmail.com"><i class="fa fa-google"></i></a>
+        <a class="btn text-white m-1" style="background-color: #9149c8;" href="https://github.com/icestuwady"><i class="fa fa-github"></i></a>
+        <a class="btn text-white m-1" style="background-color: #3b71a0;" href="https://www.linkedin.com/in/chanyaphat-metha-15395327a/"><i class="fa fa-linkedin"></i></a>
+      </div>
+      <div class="container pt-3">
+        <h5>&nbsp;<i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;SamutPrakan, Thailand</h5>
+        <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;Chanyaphat.mth@gmail.com</h5>
+        <h5><i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;091-7391050</h5>
+      </div>
+    </section>
+
+    <footer class="pt-5 text-center">
+      <!-- Copyright -->
+      <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.1);">
+        © 2023 : 
+        <a class="text-dark" href="https://icestuwady.github.io/cyp-portfolio">cyp-portfolio</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
 
     <script src="Assets/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
