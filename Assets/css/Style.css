@@ -4,6 +4,19 @@ html {
 .navbar-nav li{
     padding: 0 20px;
 }
+.bg-pname {
+    height: 1000px;
+    margin-top: 60px; 
+    background-image: url(/Assets/img/bg-header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.color-pp{
+    color: rgb(68, 73, 115);
+}
+.color-or{
+    color: rgb(205, 130, 112);
+}
 .card:hover {
     transform: scale(1.1);
 }
